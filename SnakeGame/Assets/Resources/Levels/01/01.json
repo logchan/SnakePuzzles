@@ -1,0 +1,46 @@
+{
+  "Name": "",
+  "Rows": 6,
+  "Columns": 6,
+  "StartSnake": {
+    "Blocks": [
+      {
+        "X": 1,
+        "Y": 0,
+        "IsEmpty": false
+      }
+    ]
+  },
+  "SpecialTiles": [
+    {
+      "X": 3,
+      "Y": 3,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 4,
+      "Y": 3,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 5,
+      "Y": 3,
+      "TileType": "Goal",
+      "TileArgs": []
+    }
+  ],
+  "Fruits": [
+    {
+      "X": 1,
+      "Y": 2,
+      "IsEmpty": false
+    },
+    {
+      "X": 1,
+      "Y": 3,
+      "IsEmpty": false
+    }
+  ]
+}

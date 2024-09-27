@@ -1,0 +1,67 @@
+{
+  "Name": "",
+  "Rows": 6,
+  "Columns": 6,
+  "StartSnake": {
+    "Blocks": [
+      {
+        "X": 0,
+        "Y": 5
+      },
+      {
+        "X": 0,
+        "Y": 4
+      },
+      {
+        "X": 0,
+        "Y": 3
+      },
+      {
+        "X": 0,
+        "Y": 2
+      },
+      {
+        "X": 0,
+        "Y": 1
+      },
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 1,
+        "Y": 0
+      },
+      {
+        "X": 2,
+        "Y": 0
+      }
+    ]
+  },
+  "SpecialTiles": [
+    {
+      "X": 3,
+      "Y": 5,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 5,
+      "Y": 5,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 5,
+      "Y": 4,
+      "TileType": "Goal",
+      "TileArgs": []
+    },
+    {
+      "X": 4,
+      "Y": 2,
+      "TileType": "Occupy",
+      "TileArgs": []
+    }
+  ]
+}

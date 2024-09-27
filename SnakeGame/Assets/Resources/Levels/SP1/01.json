@@ -1,0 +1,60 @@
+{
+  "Name": "",
+  "Rows": 5,
+  "Columns": 5,
+  "StartSnake": {
+    "Blocks": [
+      {
+        "X": 2,
+        "Y": 2,
+        "IsEmpty": false
+      },
+      {
+        "X": 1,
+        "Y": 2,
+        "IsEmpty": false
+      }
+    ]
+  },
+  "SpecialTiles": [
+    {
+      "X": 0,
+      "Y": 0,
+      "TileType": "Goal",
+      "TileArgs": []
+    },
+    {
+      "X": 1,
+      "Y": 0,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 2,
+      "Y": 0,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 3,
+      "TileType": "Wall",
+      "TileArgs": []
+    },
+    {
+      "X": 4,
+      "Y": 3,
+      "TileType": "Wall",
+      "TileArgs": []
+    }
+  ],
+  "Fruits": [
+    {
+      "X": 4,
+      "Y": 4,
+      "IsEmpty": false,
+      "IsPersistent": true
+    }
+  ],
+  "HelpText": "Z to undo?"
+}

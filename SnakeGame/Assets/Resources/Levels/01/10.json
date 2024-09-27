@@ -1,0 +1,186 @@
+{
+  "Name": "",
+  "Rows": 7,
+  "Columns": 7,
+  "StartSnake": {
+    "Blocks": [
+      {
+        "X": 3,
+        "Y": 3,
+        "IsEmpty": false
+      },
+      {
+        "X": 3,
+        "Y": 2,
+        "IsEmpty": true
+      }
+    ]
+  },
+  "SpecialTiles": [
+    {
+      "X": 1,
+      "Y": 1,
+      "TileType": "Wall",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 1,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 2,
+      "TileType": "Empty",
+      "TileArgs": []
+    },
+    {
+      "X": 5,
+      "Y": 2,
+      "TileType": "Wall",
+      "TileArgs": []
+    },
+    {
+      "X": 1,
+      "Y": 3,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 2,
+      "Y": 3,
+      "TileType": "Empty",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 3,
+      "TileType": "Goal",
+      "TileArgs": []
+    },
+    {
+      "X": 4,
+      "Y": 3,
+      "TileType": "Empty",
+      "TileArgs": []
+    },
+    {
+      "X": 5,
+      "Y": 3,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 2,
+      "Y": 4,
+      "TileType": "Wall",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 4,
+      "TileType": "Empty",
+      "TileArgs": []
+    },
+    {
+      "X": 4,
+      "Y": 4,
+      "TileType": "Wall",
+      "TileArgs": []
+    },
+    {
+      "X": 1,
+      "Y": 5,
+      "TileType": "Wall",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 5,
+      "TileType": "Occupy",
+      "TileArgs": []
+    }
+  ],
+  "Fruits": [
+    {
+      "X": 0,
+      "Y": 0,
+      "IsEmpty": true,
+      "IsPersistent": false
+    },
+    {
+      "X": 0,
+      "Y": 1,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 0,
+      "Y": 2,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 0,
+      "Y": 3,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 0,
+      "Y": 4,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 0,
+      "Y": 5,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 0,
+      "Y": 6,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 1,
+      "Y": 6,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 2,
+      "Y": 6,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 3,
+      "Y": 6,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 4,
+      "Y": 6,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 5,
+      "Y": 6,
+      "IsEmpty": false,
+      "IsPersistent": false
+    },
+    {
+      "X": 6,
+      "Y": 6,
+      "IsEmpty": false,
+      "IsPersistent": false
+    }
+  ],
+  "IsWitness": false
+}

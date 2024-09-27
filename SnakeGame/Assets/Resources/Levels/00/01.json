@@ -1,0 +1,26 @@
+{
+  "Name": "",
+  "Rows": 3,
+  "Columns": 4,
+  "StartSnake": {
+    "Blocks": [
+      {
+        "X": 1,
+        "Y": 1
+      },
+      {
+        "X": 0,
+        "Y": 1
+      }
+    ]
+  },
+  "SpecialTiles": [
+    {
+      "X": 3,
+      "Y": 1,
+      "TileType": "Goal",
+      "TileArgs": []
+    }
+  ],
+  "HelpText": "WASD to move"
+}

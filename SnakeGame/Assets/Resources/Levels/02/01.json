@@ -1,0 +1,50 @@
+{
+  "Name": "",
+  "Rows": 5,
+  "Columns": 5,
+  "StartSnake": {
+    "Blocks": [
+      {
+        "X": 0,
+        "Y": 4,
+        "IsEmpty": false
+      }
+    ]
+  },
+  "SpecialTiles": [
+    {
+      "X": 2,
+      "Y": 1,
+      "TileType": "Goal",
+      "TileArgs": []
+    },
+    {
+      "X": 1,
+      "Y": 2,
+      "TileType": "Goal",
+      "TileArgs": []
+    },
+    {
+      "X": 2,
+      "Y": 2,
+      "TileType": "Triangle",
+      "TileArgs": [
+        "1"
+      ]
+    },
+    {
+      "X": 3,
+      "Y": 2,
+      "TileType": "Goal",
+      "TileArgs": []
+    },
+    {
+      "X": 2,
+      "Y": 3,
+      "TileType": "Goal",
+      "TileArgs": []
+    }
+  ],
+  "Fruits": [],
+  "IsWitness": false
+}

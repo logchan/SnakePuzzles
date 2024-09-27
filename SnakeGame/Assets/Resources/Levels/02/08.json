@@ -1,0 +1,71 @@
+{
+  "Name": "",
+  "Rows": 5,
+  "Columns": 5,
+  "StartSnake": {
+    "Blocks": [
+      {
+        "X": 2,
+        "Y": 4,
+        "IsEmpty": false
+      },
+      {
+        "X": 1,
+        "Y": 4,
+        "IsEmpty": false
+      },
+      {
+        "X": 0,
+        "Y": 4,
+        "IsEmpty": false
+      },
+      {
+        "X": 0,
+        "Y": 3,
+        "IsEmpty": true
+      }
+    ]
+  },
+  "SpecialTiles": [
+    {
+      "X": 1,
+      "Y": 1,
+      "TileType": "Wall",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 1,
+      "TileType": "Wall",
+      "TileArgs": []
+    },
+    {
+      "X": 2,
+      "Y": 2,
+      "TileType": "Triangle",
+      "TileArgs": [
+        "1"
+      ]
+    },
+    {
+      "X": 4,
+      "Y": 2,
+      "TileType": "Goal",
+      "TileArgs": []
+    },
+    {
+      "X": 1,
+      "Y": 3,
+      "TileType": "Wall",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 3,
+      "TileType": "Wall",
+      "TileArgs": []
+    }
+  ],
+  "Fruits": [],
+  "IsWitness": false
+}

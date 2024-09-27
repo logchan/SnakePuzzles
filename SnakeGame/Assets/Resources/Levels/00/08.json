@@ -1,0 +1,34 @@
+{
+  "Name": "",
+  "Rows": 3,
+  "Columns": 3,
+  "StartSnake": {
+    "Blocks": [
+      {
+        "X": 0,
+        "Y": 1,
+        "IsEmpty": false
+      },
+      {
+        "X": 0,
+        "Y": 0,
+        "IsEmpty": false
+      }
+    ]
+  },
+  "SpecialTiles": [
+    {
+      "X": 1,
+      "Y": 1,
+      "TileType": "Empty",
+      "TileArgs": []
+    },
+    {
+      "X": 2,
+      "Y": 1,
+      "TileType": "Goal",
+      "TileArgs": []
+    }
+  ],
+  "Fruits": []
+}

@@ -1,0 +1,74 @@
+{
+  "Name": "",
+  "Rows": 9,
+  "Columns": 9,
+  "StartSnake": {
+    "Blocks": [
+      {
+        "X": 2,
+        "Y": 0,
+        "IsEmpty": false
+      }
+    ]
+  },
+  "SpecialTiles": [
+    {
+      "X": 8,
+      "Y": 0,
+      "TileType": "Goal",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 1,
+      "TileType": "Triangle",
+      "TileArgs": [
+        "1"
+      ]
+    },
+    {
+      "X": 5,
+      "Y": 3,
+      "TileType": "Triangle",
+      "TileArgs": [
+        "3"
+      ]
+    },
+    {
+      "X": 8,
+      "Y": 3,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 4,
+      "TileType": "Empty",
+      "TileArgs": []
+    },
+    {
+      "X": 3,
+      "Y": 5,
+      "TileType": "Triangle",
+      "TileArgs": [
+        "2"
+      ]
+    },
+    {
+      "X": 5,
+      "Y": 7,
+      "TileType": "Triangle",
+      "TileArgs": [
+        "1"
+      ]
+    },
+    {
+      "X": 0,
+      "Y": 8,
+      "TileType": "Occupy",
+      "TileArgs": []
+    }
+  ],
+  "Fruits": [],
+  "IsWitness": true
+}

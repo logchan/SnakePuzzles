@@ -1,0 +1,37 @@
+{
+  "Name": "",
+  "Rows": 3,
+  "Columns": 5,
+  "StartSnake": {
+    "Blocks": [
+      {
+        "X": 0,
+        "Y": 2,
+        "IsEmpty": false
+      }
+    ]
+  },
+  "SpecialTiles": [
+    {
+      "X": 0,
+      "Y": 0,
+      "TileType": "Empty",
+      "TileArgs": []
+    },
+    {
+      "X": 2,
+      "Y": 1,
+      "TileType": "Occupy",
+      "TileArgs": []
+    },
+    {
+      "X": 4,
+      "Y": 2,
+      "TileType": "Goal",
+      "TileArgs": []
+    }
+  ],
+  "Fruits": [],
+  "IsWitness": true,
+  "HelpText": "This is another game :)"
+}
